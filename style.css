@@ -7,6 +7,9 @@ body {
   font-family: "Varela Round", sans-serif;
   background: #f8f8f8;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
 }
@@ -81,7 +84,7 @@ header {
   align-items: center;
   margin-right: 700px;
 }
-.header-text__span {
+.header-text__span a {
   color: #111111;
   font-size: 14px;
   font-weight: 400;
